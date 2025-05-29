@@ -79,7 +79,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="flex-1"
         >
-          <p className="text-textWhite p-4 text-lg sm:text-xl sm:leading-7">
+          <p className="font-serif p-4 text-lg sm:text-xl sm:leading-7">
             I am a passionate MERN Stack Developer and a Problem Solver,
             dedicated to creating impactful codes that thrive on the internet.
             <br />
@@ -144,13 +144,36 @@ const About = () => {
                       <p>
                         Bachelor of Technology in Chemical Engg & Technology
                       </p>
-                      <span>2020-2024</span>
+                      <p>2020-2024</p>
+                      <p>Grade: 9.13</p>
                     </span>
                   </div>
                 </motion.li>
               </ul>
             ) : (
               <ul className="list-disc pl-2 flex flex-col gap-4">
+                <motion.li
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1 }}
+                >
+                  <h5 className="text-2xl font-[600]">
+                    Software Developer {" "}
+                    <span className="text-base font-[500]">- Accenture Japan</span>
+                  </h5>
+                  <div className="mt-2 flex gap-4 items-center">
+                    <div className="w-[15px] h-[2px] bg-textWhite "></div>
+                    <span>
+                      <p>
+                        Managed cloud platform for the app. Developed IAM roles, Optimized terraform code, maintained the IP address used by NewRelic
+                      </p>
+                    </span>
+                  </div>
+                  <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
+                    <span className="">December 2024 - Present</span>
+                    <span className="">Tokyo (onsite)</span>
+                  </div>
+                </motion.li>
                 <motion.li
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -172,7 +195,7 @@ const About = () => {
                     </span>
                   </div>
                   <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
-                    <span className="">April 2024 - Present</span>
+                    <span className="">April 2024 - September 2024</span>
                     <span className="">Remote</span>
                   </div>
                 </motion.li>
@@ -192,9 +215,9 @@ const About = () => {
                         Developed the website UI using ReactJs, optimized
                         backend workflows with Node.js, designed and
                         orchestrated REST API architecture and managed
-                        databases, increasing new registration counts.–
+                        databases, increasing new registration counts.
                         Implemented secure backend with MongoDB, and jwt token,
-                        ensuring user security and performance.– Introduced
+                        ensuring user security and performance. Introduced
                         features like College predictor, Notes, and one-to-one
                         counselling, achieving a 30% website traffic surge
                       </p>

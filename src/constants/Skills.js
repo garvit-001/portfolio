@@ -24,10 +24,6 @@ export const Skills = [
     description: "C++",
   },
   {
-    img: python,
-    description: "Python",
-  },
-  {
     img: js,
     description: "JavaScript",
   },

@@ -36,5 +36,17 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
-  }
+  },
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garvit-001/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garvit-001/portfolio/issues"
+  },
+  "homepage": "https://github.com/garvit-001/portfolio#readme",
+  "description": ""
 }

@@ -53,7 +53,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
 
-            <p className="text-textPara text-base sm:text-lg mb-6 mt-3 lg:text-xl">
+            <p className="text-gray-500 text-base sm:text-lg mb-6 mt-3 lg:text-xl">
               Stick around to see some of my work.
             </p>
             <div className="flex items-center gap-4 flex-col sm:flex-row ">
@@ -103,7 +103,7 @@ const HeroSection = () => {
                 alt="Meme Icon"
                 loading="lazy"
                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-[300px] h-[300px] sm:w-[400px] sm:h-[400px]"
-              />
+              /> 
             </Suspense>
           </motion.div>
         </div>
