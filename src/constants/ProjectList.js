@@ -1,4 +1,4 @@
-import ecommerce from "../assets/projects/ecommerce.png";
+import imageEditor from "../assets/projects/image-editor.svg";
 import notion from "../assets/projects/notion.png";
 import byte from "../assets/projects/byte.png";
 
@@ -19,7 +19,7 @@ export const ProjectList = [
     name: " Image Editor",
     description:
       "Developed an image editor and enhancer using ReactJs and Vite for the frontend and NodeJs for the backend.– Added basic image editing options like crop, cut, rotate, resize, text overlay and some colour filters to the image. Streamlined setup for quick download, offering image type conversion options for user preference. Utilized AWS and Google tags for AI-driven image tagging, with up to 90% accuracy",
-    img: ecommerce,
+    img: imageEditor,
     //max 6 tech stack
     tech: [
       "React.js",
@@ -30,7 +30,7 @@ export const ProjectList = [
       "Stripe",
     ],
     source: "https://github.com/garvit-001/Image-Editor",
-    demo: "https://image-editor-weld.vercel.app/",
+    demo: "https://image-editor-app-fdw0.onrender.com/",
   },
   {
     id: 3,
