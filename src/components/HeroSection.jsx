@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { Suspense } from "react";
 import Loading from "./Loading";
+import lamp_toggle from "../assets/study_room_lamp_toggle.gif"
 
 const HeroSection = () => {
   const refContent = useRef(null);
@@ -99,7 +100,7 @@ const HeroSection = () => {
           >
             <Suspense fallback={<Loading />}>
               <img
-                src="/images/heroImg.png"
+                src={lamp_toggle}
                 alt="Meme Icon"
                 loading="lazy"
                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-[300px] h-[300px] sm:w-[400px] sm:h-[400px]"

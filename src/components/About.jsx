@@ -3,6 +3,7 @@ import TabbedComponent from "./TabbedComponent";
 import { Skills } from "../constants/Skills";
 import { motion, useInView } from "framer-motion";
 import Loading from "./Loading";
+import about from "../assets/About.png"
 
 const About = () => {
   const [tab, setTab] = useState("skills");
@@ -61,7 +62,7 @@ const About = () => {
         >
           <Suspense fallback={<Loading />}>
             <img
-              src="/images/about.png"
+              src={about}
               alt="meme"
               loading="lazy"
               className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] "
